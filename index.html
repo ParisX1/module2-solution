@@ -2,15 +2,49 @@
 <html>
     <head>
         <title>Module 2 Website</title>
+        <link rel = "stylesheet" href = "style.css">
+        <!--
+        <style>
+            .menu_item{
+                margin: 20px;
+            }
+
+            .menu_item, .menu_title{
+                border: 2px solid black;
+            }
+
+            .menu_title{
+                width: 150px;
+                height: 50px;
+                float: right;
+                text-align: center;
+            }
+            #title_chicken{
+                background-color: salmon;
+            }
+
+            #title_beef{
+                background-color: brown;
+            }
+
+            #title_sushi{
+                background-color: burlywood;
+            }
+        </style>
+        -->
+    
     </head>
+    
     <body>
         <div>
             <h1>Our Menu</h1>
         </div>
 
         <div class = "menu_item">
-            <div class = "menu_title" id = "title_chicken">
-                <h2>Chicken</h2>
+            <div style = "height: 50px;">
+                <div class = "menu_title" id = "title_chicken">
+                    <h2>Chicken</h2>
+                </div>
             </div>
 
             <div class = "menu_text">
@@ -21,7 +55,7 @@
         </div>
 
         <div class = "menu_item">
-            <div class = "menu_title" id = "beef">
+            <div class = "menu_title" id = "title_beef">
                 <h2>Beef</h2>
             </div>
             
@@ -35,7 +69,7 @@
         </div>
 
         <div class = "menu_item">
-            <div class = "menu_title" id = "sushi">
+            <div class = "menu_title" id = "title_sushi">
                 <h2>Sushi</h2>
             </div>
 
