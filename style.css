@@ -22,7 +22,7 @@ h2 {
 
 .menu_item {
     margin: 10px;
-    max-width: 350px;
+    width: 30%;
     background-color: lightgray;   
     position: relative;
 	float: left;
@@ -72,15 +72,22 @@ h2 {
     clear:both;
 }
 
-
 @media (min-width: 768px) and (max-width: 991px) {
+    .menu_item {
+        width: 47%;
+    }
+    
     #menu_sushi {
-        max-width: 720px;
+        width: 96%;
     }
 }
 
 @media (max-width: 767px) {
     .menu_item {
         float: none;
+    }
+    
+    .menu_item {
+        width: 96%;
     }
 }
