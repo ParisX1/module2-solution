@@ -1,15 +1,18 @@
 * {
     box-sizing: border-box;
+    font-size: 14px;
 }
 
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 1.25em;
 }
 
 h1{
     text-align:center;
-    font-size: 22px;
+    font-size: 1.75em;
+    margin-top:40px;
+    margin-bottom:30px;
 }
 
 h2 {
@@ -17,29 +20,22 @@ h2 {
     font-weight: 800;
 }
 
-/*
-@media (min-width: 100px) and (max-width: 200px) {
-
-}
-*/
-
-.menu_item{
-    margin: 20px;
-    max-width: 500px;
+.menu_item {
+    margin: 10px;
+    max-width: 350px;
     background-color: lightgray;   
     position: relative;
 	float: left;
 }
 
 .menu_item{
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .menu_title{
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
 }
-
 
 .menu_title{
     width: 150px;
@@ -69,10 +65,22 @@ h2 {
 
 #title_sushi{
     background-color: burlywood;
-    clear:both;
 }
 
 .menu_text > p{
     padding: 10px 10px 10px 10px;
     clear:both;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #menu_sushi {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu_item {
+        float: none;
+    }
 }
